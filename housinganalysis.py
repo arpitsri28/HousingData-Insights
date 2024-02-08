@@ -6,7 +6,7 @@ import seaborn as sns
 house_data = pd.read_csv('housing.csv')
 
 
-print("Sample of the Movie Dataset:")
+print("Sample of the House Dataset:")
 print(house_data.head())
 
 stats=house_data.describe()
